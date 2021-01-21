@@ -1,0 +1,14 @@
+Potions:
+  Fund:
+    event_map:
+      BlockBreakEvent: 'HIGHEST'
+    description: 'Give everyone online money'
+    price: 10
+    command: "eco give * 10000000"
+    max: 5
+    levels:
+      1: 0.01
+      2: 0.02
+      3: 0.03
+      4: 0.04
+      5: 0.05
